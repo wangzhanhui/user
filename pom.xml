@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Heng-You Confidential
+  ~
+  ~ Copyright (C) 2017 Shanghai Heng-You Information Technology Co., Ltd.
+  ~ All rights reserved.
+  ~
+  ~ No part of this file may be reproduced or transmitted in any form or by any means,
+  ~ electronic, mechanical, photocopying, recording, or otherwise, without prior
+  ~ written permission of Shanghai Heng-You Information Technology Co., Ltd.
+  ~
+  -->
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.wmmm</groupId>
+    <artifactId>user</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>user-web</module>
+        <module>user-core</module>
+        <module>user-dao</module>
+        <module>user-facade</module>
+    </modules>
+
+
+</project>
